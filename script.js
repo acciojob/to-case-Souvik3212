@@ -1,8 +1,19 @@
 function toCase(text) {
-  // write your code here
+    
+    let lowercaseText = text.toLowerCase();
+    
+   
+    let uppercaseText = text.toUpperCase();
+    
+    
+    let result = lowercaseText + '-' + uppercaseText;
+    
+    
+    return result;
 }
 
-// DO not change the code below
-
+// Example usage:
 const text = prompt("Enter text:");
 alert(toCase(text));
+
+
